@@ -1,0 +1,265 @@
+body {
+    background-image: url("images\background.jpg");
+    background-color: olivedrab;
+    margin: 5%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/****************************************header******************************************/
+.header-content {
+    padding: 0.5%;
+    background-color: antiquewhite;
+    text-transform: uppercase;
+    display: flex;
+    position: relative;
+    box-shadow: 5px 5px palevioletred;
+}
+
+.header-content li {
+    margin-right: 2%;
+}
+
+.header-content img {
+    width: 50px;
+    height: 50px;
+}
+
+.heading {
+    color: black;
+    padding: 15px;
+    font-weight: bold;
+}
+
+/****************************************book now ***************************************/
+.book {
+    padding: 15px;
+    font-weight: bold;
+    background-color: orangered;
+    margin-left: 57%;
+}
+
+/****************************************jungle safari************************************/
+.text {
+    color: olive;
+    font-size: 90px;
+    font-weight: bold;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.text p {
+    box-shadow: 5px 5px olive;
+    margin-bottom: 0px;
+}
+
+/*****************************************images******************************************/
+.show {
+    padding: 2%;
+    object-fit: cover;
+    width: 45%;
+    height: 100vh;
+}
+
+.showimg {
+    background-color: antiquewhite;
+}
+
+#boat {
+    width: 94%;
+    height: 80vh;
+}
+
+.row {
+    padding: 2%;
+}
+
+.column {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 2%;
+    text-align: center;
+}
+
+.card {
+    background-color: black;
+    color: antiquewhite;
+}
+
+.card p {
+    font-weight: bold;
+}
+
+#red {
+    background-color: olivedrab;
+}
+
+/*******************************************footer*************************************/
+
+.icons {
+    display: flex;
+    padding-left: 32rem;
+}
+
+.icons i {
+    margin: 1rem;
+}
+
+.footer p {
+    text-align: center;
+    font-weight: bold;
+}
+
+/***************************************services**************************************/
+.services {
+    margin-top: 5%;
+    background-color: antiquewhite;
+}
+
+.partition {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr;
+}
+
+.img {
+    border: 5px solid black;
+    border-radius: 10px;
+    object-fit: cover;
+    width: 100%;
+    height: 150px;
+}
+
+.pack {
+    padding: 5%;
+
+}
+
+.pack h1 {
+    margin-top: 0px;
+    font-weight: bold;
+}
+
+.pack p {
+    color: olive;
+    font-weight: bold;
+}
+
+/********************************SErvices Footer*****************************************/
+.buy p {
+    margin-top: 0px;
+    margin-left: 45%;
+    margin-right: 45%;
+    background-color: orangered;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+/**********************************Booking***********************************************/
+input[type=text],
+input[type=email],
+textarea {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 100%;
+}
+
+.mg {
+    margin-top: 5%;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.booking {
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+    border-radius: 50px;
+    background-color: antiquewhite;
+    align-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.booking p {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid palevioletred;
+}
+
+.booking h2 {
+    text-align: right;
+}
+
+input[type=submit] {
+    font-size: 25px;
+    font-weight: bold;
+    background-color: palevioletred;
+}
+
+.booking p1 {
+    margin-right: 12%;
+}
+
+.booking p2 {
+    margin-right: 24%;
+}
+
+/**********************************Contact**********************************************/
+
+.contact {
+    margin: 3%;
+}
+
+.arcolumn {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.comadd {
+    background-color: antiquewhite;
+    border-radius: 50px;
+    padding: 5%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.comadd-content i,
+.comadd-content h1 {
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.limg {
+    height: 40vh;
+}
+
+/***********************************Videos******************************************/
+.video {
+    display: flex;
+}
+.video li{
+    padding-top: 2%;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+#a{
+    margin-right: 8rem;
+}
+.arr{
+    margin-top: 3%;
+    display: flex;
+}
+.overlay{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+}
+
